@@ -1,3 +1,10 @@
+# DEPRECATED
+
+I originally forked this so I could port libphonenumber to an optimized version for Android which would load metadata using `AssetManager#open` instead of `Class#getResourceAsStream`. While working on this, I found another library which does exactly this - https://github.com/MichaelRocks/libphonenumber-android and thus abandoned this effort.
+
+---
+
+
 <p align="right">
 <img src="https://travis-ci.org/googlei18n/libphonenumber.svg?branch=master">
 </p>
